@@ -1,0 +1,26 @@
+Group Members: Kenny, Jason, Christian
+
+Our group name is Group 3. Our application name is iLearn.
+
+iLearn is the social media platform for any aspiring intellectual. In iLearn, 
+unique courses and discussion pages will be created for any and all that want 
+to teach others. Users can search, follow, and of course learn from their 
+favorite content creators.
+
+Users can:
+* login/logout/register
+* upload content
+* view/update profile
+* Create a course (and be a content creator)
+* view all courses signed up for
+* search course by course name/creator name
+* register course that will add to a user's register course list
+* comment on posts
+* edit course content created by his/herself
+* unregister the course (deletes the course from the list)
+* access two lists, one for created content and one for enrolled courses
+
+Note: Content/file types that can be uploaded include: 
+* videos 
+* plain text
+* images such as pdf, png, jpg, ppt
