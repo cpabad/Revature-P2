@@ -1,10 +1,7 @@
-SHOW search_path;
-SET search_path TO "$user",public;
-SET search_path TO "$user",'Demo';
-
 -- Ctrl+a then ctrl+enter to reset tables
 DROP TABLE user_comment;
 DROP TABLE lesson;
+DROP TABLE users_course;
 DROP TABLE course;
 DROP TABLE users;
 
@@ -31,7 +28,7 @@ INSERT INTO users values(DEFAULT,'j@email.com','userpass','Oliver', 'Casey');
 CREATE TABLE course(
 	courseId serial PRIMARY KEY,
 	title varchar NOT NULL,
-	creator integer REFERENCES users(userId) ON DELETE CASCADE, --add delete constraints
+	creator integer REFERENCES users(userId), --add delete constraints
 	/*Move this relation to User model make the user owning side of the join table
 	Hibernate will create jointable for us by uesing notation 
 	student integer REFERENCES users(userId),*/
@@ -47,10 +44,15 @@ INSERT INTO course values(DEFAULT, 'Basic Computer Skills', 1, 'Learning how to 
 INSERT INTO course values(DEFAULT, 'Cooking Basics', 2, 'Learning how to boil, scramble, and poach an egg', 'true', '', '2000-01-01', 6);
 INSERT INTO course values(DEFAULT, 'Advanced Computer Skills', 1, 'Learning how to create files, remove files using the terminal, and copy files using the terminal', 'false', '8080', '2000-01-01', 2);
 
+CREATE TABLE users_course(
+	userId integer REFERENCES users(userId),
+	courseId integer REFERENCES course(courseId)
+);
+
 CREATE TABLE lesson(
 	lessonId serial PRIMARY KEY,
 	title varchar NOT NULL,
-	courseId integer REFERENCES course(courseId) ON DELETE CASCADE,
+	courseId integer REFERENCES course(courseId),
 	file_location varchar
 );
 INSERT INTO lesson values(DEFAULT,'Create a new folder',1,'howtocreatefolder.mp4');
@@ -59,14 +61,14 @@ INSERT INTO lesson values(DEFAULT,'How to undo deletions',1,'undodeletions.mp4')
 INSERT INTO lesson values(DEFAULT, 'How to boil an egg', 2, 'location 1');
 INSERT INTO lesson values(DEFAULT, 'How to scramble an egg', 2, 'location 2');
 INSERT INTO lesson values(DEFAULT, 'How to poache an egg', 2, 'location 3');
-INSERT INTO lesson values(DEFAULT, 'How to create a file', 4, 'location 4');
-INSERT INTO lesson values(DEFAULT, 'How to remove files using the terminal', 4, 'location 5');
-INSERT INTO lesson values(DEFAULT, 'How to copy files using the terminal', 4, 'location 6');
+INSERT INTO lesson values(DEFAULT, 'How to create a file', 3, 'location 4');
+INSERT INTO lesson values(DEFAULT, 'How to remove files using the terminal', 3, 'location 5');
+INSERT INTO lesson values(DEFAULT, 'How to copy files using the terminal', 3, 'location 6');
 
 CREATE TABLE user_comment(
 	commentId serial PRIMARY KEY,
-	lessonId integer REFERENCES lesson(lessonId) ON DELETE CASCADE,
-	authorId integer REFERENCES users(userId) ON DELETE CASCADE,
+	lessonId integer REFERENCES lesson(lessonId),
+	authorId integer REFERENCES users(userId),
 	lesson_comment varchar NOT NULL,
 	comment_date timestamp NOT NULL,
 	like_counter integer,
