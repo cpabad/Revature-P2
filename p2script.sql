@@ -1,3 +1,7 @@
+SHOW search_path;
+SET search_path TO "$user",public;
+SET search_path TO "$user",'Demo';
+
 -- Ctrl+a then ctrl+enter to reset tables
 DROP TABLE user_comment;
 DROP TABLE lesson;
@@ -36,14 +40,12 @@ CREATE TABLE course(
 	access_code varchar, -- change type from Integer to Varchar
 	
 	--Add two more columns
-	date_created Date,
+	date_created date,
 	number_enrolled integer
 );
-INSERT INTO course values(DEFAULT, 'Basic Computer Skills', 1, 2, 'Learning how to create folders, cut and paste, copy and paste, and undo', 'true', 0);
-INSERT INTO course values(DEFAULT, 'Cooking Basics', 2, 1, 'Learning how to boil, scramble, and poach an egg', 'true', 5432);
-INSERT INTO course values(DEFAULT, 'Cooking Basics', 2, 3, 'Learning how to boil, scramble, and poach an egg', 'true', 5432);
-INSERT INTO course values(DEFAULT, 'Advanced Computer Skills', 1, 2, 'Learning how to create files, remove files using the terminal, and copy files using the terminal', 'false', 8080);
-INSERT INTO course values(DEFAULT, 'Advanced Computer Skills', 1, 3, 'Learning how to create files, remove files using the terminal, and copy files using the terminal', 'false', 8080);
+INSERT INTO course values(DEFAULT, 'Basic Computer Skills', 1, 'Learning how to create folders, cut and paste, copy and paste, and undo', 'true', '', '2000-01-01', 4);
+INSERT INTO course values(DEFAULT, 'Cooking Basics', 2, 'Learning how to boil, scramble, and poach an egg', 'true', '', '2000-01-01', 6);
+INSERT INTO course values(DEFAULT, 'Advanced Computer Skills', 1, 'Learning how to create files, remove files using the terminal, and copy files using the terminal', 'false', '8080', '2000-01-01', 2);
 
 CREATE TABLE lesson(
 	lessonId serial PRIMARY KEY,
