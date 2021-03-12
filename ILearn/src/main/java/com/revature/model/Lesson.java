@@ -32,6 +32,54 @@ public class Lesson {
 	
 	
 
+	public int getLessonId() {
+		return lessonId;
+	}
+
+
+
+	public void setLessonId(int lessonId) {
+		this.lessonId = lessonId;
+	}
+
+
+
+	public String getTitle() {
+		return title;
+	}
+
+
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+
+
+	public Course getCourse() {
+		return course;
+	}
+
+
+
+	public void setCourse(Course course) {
+		this.course = course;
+	}
+
+
+
+	public String getFile_location() {
+		return file_location;
+	}
+
+
+
+	public void setFile_location(String file_location) {
+		this.file_location = file_location;
+	}
+
+
+
 	public Lesson(int lessonId, String title, Course course, String file_location) {
 		super();
 		this.lessonId = lessonId;
