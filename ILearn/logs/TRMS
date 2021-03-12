@@ -16865,3 +16865,840 @@ java.lang.Exception: exception just for purpose of providing stack trace
 2021-03-11 18:18:40,507 DEBUG o.h.r.j.i.LogicalConnectionManagedImpl [main] Initiating JDBC connection release from afterTransaction
 2021-03-11 18:18:40,508 DEBUG o.h.r.t.i.SynchronizationRegistryStandardImpl [main] Clearing local Synchronizations
 2021-03-11 18:18:40,508 DEBUG o.h.r.j.i.LogicalConnectionManagedImpl [main] Initiating JDBC connection release from afterTransaction
+2021-03-11 18:37:29,293 DEBUG o.j.l.LoggerProviders [main] Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2021-03-11 18:37:29,305 DEBUG o.h.i.i.IntegratorServiceImpl [main] Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2021-03-11 18:37:29,306 DEBUG o.h.i.i.IntegratorServiceImpl [main] Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2021-03-11 18:37:29,309 DEBUG o.h.i.i.IntegratorServiceImpl [main] Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2021-03-11 18:37:29,329 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-11 18:37:29,330 DEBUG o.h.c.Environment [main] HHH000206: hibernate.properties not found
+2021-03-11 18:37:29,473 DEBUG o.h.b.j.i.s.LocalXmlResourceResolver [main] Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD 3.0//EN] - [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd]
+2021-03-11 18:37:29,474 WARN o.h.b.j.i.s.LocalXmlResourceResolver [main] HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2021-03-11 18:37:29,475 DEBUG o.h.b.j.i.s.LocalXmlResourceResolver [main] Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+2021-03-11 18:37:29,482 DEBUG o.h.b.c.i.JaxbCfgProcessor [main] cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+2021-03-11 18:37:29,702 DEBUG o.h.c.Configuration [main] Building session factory using internal StandardServiceRegistryBuilder
+2021-03-11 18:37:29,706 DEBUG o.h.s.s.ServiceBinding [main] Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2021-03-11 18:37:29,707 DEBUG o.h.c.Configuration [main] Building session factory using provided StandardServiceRegistry
+2021-03-11 18:37:29,722 DEBUG o.h.c.i.RegionFactoryInitiator [main] Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+2021-03-11 18:37:29,723 DEBUG o.h.c.i.RegionFactoryInitiator [main] Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2021-03-11 18:37:29,741 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-11 18:37:29,842 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration boolean -> org.hibernate.type.BooleanType@4cee7fa0
+2021-03-11 18:37:29,843 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration boolean -> org.hibernate.type.BooleanType@4cee7fa0
+2021-03-11 18:37:29,843 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@4cee7fa0
+2021-03-11 18:37:29,843 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@4e2c95ee
+2021-03-11 18:37:29,844 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration true_false -> org.hibernate.type.TrueFalseType@5942ee04
+2021-03-11 18:37:29,844 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration yes_no -> org.hibernate.type.YesNoType@14faa38c
+2021-03-11 18:37:29,845 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration byte -> org.hibernate.type.ByteType@5b6e8f77
+2021-03-11 18:37:29,846 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration byte -> org.hibernate.type.ByteType@5b6e8f77
+2021-03-11 18:37:29,846 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@5b6e8f77
+2021-03-11 18:37:29,847 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration character -> org.hibernate.type.CharacterType@27e32fe4
+2021-03-11 18:37:29,847 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration char -> org.hibernate.type.CharacterType@27e32fe4
+2021-03-11 18:37:29,848 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@27e32fe4
+2021-03-11 18:37:29,849 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration short -> org.hibernate.type.ShortType@3044e9c7
+2021-03-11 18:37:29,849 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration short -> org.hibernate.type.ShortType@3044e9c7
+2021-03-11 18:37:29,850 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.lang.Short -> org.hibernate.type.ShortType@3044e9c7
+2021-03-11 18:37:29,851 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration integer -> org.hibernate.type.IntegerType@28952dea
+2021-03-11 18:37:29,851 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration int -> org.hibernate.type.IntegerType@28952dea
+2021-03-11 18:37:29,851 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@28952dea
+2021-03-11 18:37:29,852 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration long -> org.hibernate.type.LongType@70807224
+2021-03-11 18:37:29,852 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration long -> org.hibernate.type.LongType@70807224
+2021-03-11 18:37:29,853 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.lang.Long -> org.hibernate.type.LongType@70807224
+2021-03-11 18:37:29,853 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration float -> org.hibernate.type.FloatType@2caf6912
+2021-03-11 18:37:29,853 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration float -> org.hibernate.type.FloatType@2caf6912
+2021-03-11 18:37:29,854 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.lang.Float -> org.hibernate.type.FloatType@2caf6912
+2021-03-11 18:37:29,854 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration double -> org.hibernate.type.DoubleType@31ff1390
+2021-03-11 18:37:29,854 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration double -> org.hibernate.type.DoubleType@31ff1390
+2021-03-11 18:37:29,855 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@31ff1390
+2021-03-11 18:37:29,855 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@1f12e153
+2021-03-11 18:37:29,855 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@1f12e153
+2021-03-11 18:37:29,856 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration big_integer -> org.hibernate.type.BigIntegerType@469d003c
+2021-03-11 18:37:29,856 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@469d003c
+2021-03-11 18:37:29,857 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration string -> org.hibernate.type.StringType@1d3e6d34
+2021-03-11 18:37:29,857 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.lang.String -> org.hibernate.type.StringType@1d3e6d34
+2021-03-11 18:37:29,858 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration nstring -> org.hibernate.type.StringNVarcharType@2873d672
+2021-03-11 18:37:29,858 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@757529a4
+2021-03-11 18:37:29,859 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration url -> org.hibernate.type.UrlType@c68a5f8
+2021-03-11 18:37:29,859 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.net.URL -> org.hibernate.type.UrlType@c68a5f8
+2021-03-11 18:37:29,860 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration Duration -> org.hibernate.type.DurationType@6bff19ff
+2021-03-11 18:37:29,860 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.time.Duration -> org.hibernate.type.DurationType@6bff19ff
+2021-03-11 18:37:29,868 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration Instant -> org.hibernate.type.InstantType@5173200b
+2021-03-11 18:37:29,869 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.time.Instant -> org.hibernate.type.InstantType@5173200b
+2021-03-11 18:37:29,870 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@644abb8f
+2021-03-11 18:37:29,870 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@644abb8f
+2021-03-11 18:37:29,871 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration LocalDate -> org.hibernate.type.LocalDateType@58065f0c
+2021-03-11 18:37:29,872 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@58065f0c
+2021-03-11 18:37:29,873 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@3ff57625
+2021-03-11 18:37:29,873 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@3ff57625
+2021-03-11 18:37:29,874 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@6f012914
+2021-03-11 18:37:29,874 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@6f012914
+2021-03-11 18:37:29,875 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@45f24169
+2021-03-11 18:37:29,875 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@45f24169
+2021-03-11 18:37:29,877 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@3fbfa96
+2021-03-11 18:37:29,877 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@3fbfa96
+2021-03-11 18:37:29,878 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration date -> org.hibernate.type.DateType@6a74d228
+2021-03-11 18:37:29,879 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.sql.Date -> org.hibernate.type.DateType@6a74d228
+2021-03-11 18:37:29,880 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration time -> org.hibernate.type.TimeType@4917d36b
+2021-03-11 18:37:29,880 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.sql.Time -> org.hibernate.type.TimeType@4917d36b
+2021-03-11 18:37:29,881 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration timestamp -> org.hibernate.type.TimestampType@17ae7628
+2021-03-11 18:37:29,882 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@17ae7628
+2021-03-11 18:37:29,882 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.util.Date -> org.hibernate.type.TimestampType@17ae7628
+2021-03-11 18:37:29,883 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@66434cc8
+2021-03-11 18:37:29,884 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration calendar -> org.hibernate.type.CalendarType@29182679
+2021-03-11 18:37:29,884 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@29182679
+2021-03-11 18:37:29,885 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@29182679
+2021-03-11 18:37:29,886 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@5183d589
+2021-03-11 18:37:29,887 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@48bfb884
+2021-03-11 18:37:29,888 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration locale -> org.hibernate.type.LocaleType@4525d1d3
+2021-03-11 18:37:29,888 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@4525d1d3
+2021-03-11 18:37:29,889 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration currency -> org.hibernate.type.CurrencyType@773bd77b
+2021-03-11 18:37:29,889 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@773bd77b
+2021-03-11 18:37:29,889 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration timezone -> org.hibernate.type.TimeZoneType@1a5b8489
+2021-03-11 18:37:29,890 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@1a5b8489
+2021-03-11 18:37:29,890 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration class -> org.hibernate.type.ClassType@7c211fd0
+2021-03-11 18:37:29,890 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.lang.Class -> org.hibernate.type.ClassType@7c211fd0
+2021-03-11 18:37:29,891 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@67ec8477
+2021-03-11 18:37:29,891 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@67ec8477
+2021-03-11 18:37:29,892 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@34cf5a97
+2021-03-11 18:37:29,892 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration binary -> org.hibernate.type.BinaryType@5eeedb60
+2021-03-11 18:37:29,893 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration byte[] -> org.hibernate.type.BinaryType@5eeedb60
+2021-03-11 18:37:29,893 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration [B -> org.hibernate.type.BinaryType@5eeedb60
+2021-03-11 18:37:29,894 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@2b9b7f1f
+2021-03-11 18:37:29,894 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@2b9b7f1f
+2021-03-11 18:37:29,894 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@2b9b7f1f
+2021-03-11 18:37:29,895 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration row_version -> org.hibernate.type.RowVersionType@55ea2d70
+2021-03-11 18:37:29,896 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration image -> org.hibernate.type.ImageType@4e868ef5
+2021-03-11 18:37:29,896 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration characters -> org.hibernate.type.CharArrayType@afb5821
+2021-03-11 18:37:29,897 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration char[] -> org.hibernate.type.CharArrayType@afb5821
+2021-03-11 18:37:29,897 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration [C -> org.hibernate.type.CharArrayType@afb5821
+2021-03-11 18:37:29,898 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@56ccd751
+2021-03-11 18:37:29,898 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@56ccd751
+2021-03-11 18:37:29,898 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@56ccd751
+2021-03-11 18:37:29,899 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration text -> org.hibernate.type.TextType@1d207fad
+2021-03-11 18:37:29,899 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration ntext -> org.hibernate.type.NTextType@47b2e9e1
+2021-03-11 18:37:29,900 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration blob -> org.hibernate.type.BlobType@6d2d99fc
+2021-03-11 18:37:29,901 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@6d2d99fc
+2021-03-11 18:37:29,901 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@201aa8c1
+2021-03-11 18:37:29,902 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration clob -> org.hibernate.type.ClobType@7e8a46b7
+2021-03-11 18:37:29,902 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@7e8a46b7
+2021-03-11 18:37:29,903 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration nclob -> org.hibernate.type.NClobType@5486887b
+2021-03-11 18:37:29,904 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@5486887b
+2021-03-11 18:37:29,904 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@783ec989
+2021-03-11 18:37:29,904 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@43cf6ea3
+2021-03-11 18:37:29,905 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration serializable -> org.hibernate.type.SerializableType@2abc224d
+2021-03-11 18:37:29,907 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration object -> org.hibernate.type.ObjectType@10ec523c
+2021-03-11 18:37:29,908 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@10ec523c
+2021-03-11 18:37:29,908 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@aced190
+2021-03-11 18:37:29,908 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@245a060f
+2021-03-11 18:37:29,908 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@6edaa77a
+2021-03-11 18:37:29,909 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@1e63d216
+2021-03-11 18:37:29,909 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@62ddd21b
+2021-03-11 18:37:29,909 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@16c3ca31
+2021-03-11 18:37:29,909 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@2d195ee4
+2021-03-11 18:37:29,910 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@2d6aca33
+2021-03-11 18:37:29,933 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2021-03-11 18:37:29,934 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2021-03-11 18:37:29,934 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2021-03-11 18:37:29,935 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2021-03-11 18:37:29,935 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2021-03-11 18:37:29,936 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2021-03-11 18:37:29,936 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2021-03-11 18:37:29,937 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2021-03-11 18:37:29,938 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2021-03-11 18:37:29,938 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2021-03-11 18:37:29,939 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2021-03-11 18:37:29,939 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2021-03-11 18:37:29,939 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2021-03-11 18:37:29,940 DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2021-03-11 18:37:29,943 WARN o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-03-11 18:37:29,949 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://myawsinstance.ce9pchs8wm6f.us-east-2.rds.amazonaws.com:5432/p2]
+2021-03-11 18:37:29,949 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH10001001: Connection properties: {password=arsenalfc97, user=postgres}
+2021-03-11 18:37:29,950 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] HHH10001003: Autocommit mode: false
+2021-03-11 18:37:29,952 DEBUG o.j.l.DelegatingBasicLogger [main] Initializing Connection pool with 1 Connections
+2021-03-11 18:37:29,952 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl$PooledConnections [main] HHH000115: Hibernate connection pool size: 5 (min=1)
+2021-03-11 18:37:30,468 DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator [main] Database ->
+       name : PostgreSQL
+    version : 12.5
+      major : 12
+      minor : 5
+2021-03-11 18:37:30,468 DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator [main] Driver ->
+       name : PostgreSQL JDBC Driver
+    version : 42.2.19
+      major : 42
+      minor : 2
+2021-03-11 18:37:30,469 DEBUG o.j.l.DelegatingBasicLogger [main] JDBC version : 4.2
+2021-03-11 18:37:30,477 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-03-11 18:37:30,489 DEBUG o.h.e.j.e.s.IdentifierHelperBuilder [main] JDBC driver metadata reported database stores quoted identifiers in neither upper, lower nor mixed case
+2021-03-11 18:37:30,759 DEBUG o.h.b.m.r.Namespace [main] Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2021-03-11 18:37:30,761 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@4ee6291f
+2021-03-11 18:37:30,761 DEBUG o.h.t.BasicTypeRegistry [main] Adding type registration java.util.UUID -> org.hibernate.type.PostgresUUIDType@4ee6291f
+2021-03-11 18:37:30,762 DEBUG o.h.t.BasicTypeRegistry [main] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@67ec8477
+2021-03-11 18:37:30,764 DEBUG o.h.t.s.TypeConfiguration [main] Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@7903d448] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@4e08acf9]
+2021-03-11 18:37:30,801 DEBUG o.h.c.AnnotationBinder [main] Binding entity from annotated class: com.revature.model.User
+2021-03-11 18:37:30,826 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2021-03-11 18:37:30,830 DEBUG o.h.c.a.EntityBinder [main] Import with entity name User
+2021-03-11 18:37:30,832 DEBUG o.h.c.a.EntityBinder [main] Bind entity com.revature.model.User on table users
+2021-03-11 18:37:30,857 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(users), mappingColumn=userId, insertable=true, updatable=true, unique=false}
+2021-03-11 18:37:30,859 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] Not known whether passed class name [com.revature.model.User] is safe
+2021-03-11 18:37:30,860 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.revature.model.User
+2021-03-11 18:37:30,860 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property userId with lazy=false
+2021-03-11 18:37:30,861 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [com.revature.model.User:userId]
+2021-03-11 18:37:30,864 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for userId
+2021-03-11 18:37:30,866 DEBUG o.h.c.a.PropertyBinder [main] Building property userId
+2021-03-11 18:37:30,872 DEBUG o.h.c.BinderHelper [main] #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(userId)]), userId, identity, , ...)
+2021-03-11 18:37:30,873 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(users), mappingColumn=email, insertable=true, updatable=true, unique=false}
+2021-03-11 18:37:30,874 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property email with lazy=false
+2021-03-11 18:37:30,874 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [com.revature.model.User:email]
+2021-03-11 18:37:30,874 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for email
+2021-03-11 18:37:30,875 DEBUG o.h.c.a.PropertyBinder [main] Building property email
+2021-03-11 18:37:30,878 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(users), mappingColumn=null, insertable=true, updatable=true, unique=false}
+2021-03-11 18:37:30,893 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(users), mappingColumn=element, insertable=true, updatable=true, unique=false}
+2021-03-11 18:37:30,893 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(users), mappingColumn=enrolled_courses_KEY, insertable=true, updatable=true, unique=false}
+2021-03-11 18:37:30,894 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3JoinColumn{logicalColumnName='enrolled_courses_KEY', referencedColumn='null', mappedBy='null'}
+2021-03-11 18:37:30,895 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3JoinColumn{logicalColumnName='userId', referencedColumn='', mappedBy=''}
+2021-03-11 18:37:30,896 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3JoinColumn{logicalColumnName='courseId', referencedColumn='', mappedBy=''}
+2021-03-11 18:37:30,896 DEBUG o.h.c.a.CollectionBinder [main] Collection role: com.revature.model.User.enrolled_courses
+2021-03-11 18:37:30,898 DEBUG o.h.c.a.PropertyBinder [main] Building property enrolled_courses
+2021-03-11 18:37:30,899 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(users), mappingColumn=first_name, insertable=true, updatable=true, unique=false}
+2021-03-11 18:37:30,899 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property first_name with lazy=false
+2021-03-11 18:37:30,899 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [com.revature.model.User:first_name]
+2021-03-11 18:37:30,900 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for first_name
+2021-03-11 18:37:30,900 DEBUG o.h.c.a.PropertyBinder [main] Building property first_name
+2021-03-11 18:37:30,900 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(users), mappingColumn=last_name, insertable=true, updatable=true, unique=false}
+2021-03-11 18:37:30,900 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property last_name with lazy=false
+2021-03-11 18:37:30,901 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [com.revature.model.User:last_name]
+2021-03-11 18:37:30,901 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for last_name
+2021-03-11 18:37:30,901 DEBUG o.h.c.a.PropertyBinder [main] Building property last_name
+2021-03-11 18:37:30,901 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(users), mappingColumn=user_password, insertable=true, updatable=true, unique=false}
+2021-03-11 18:37:30,901 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property user_password with lazy=false
+2021-03-11 18:37:30,901 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [com.revature.model.User:user_password]
+2021-03-11 18:37:30,901 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for user_password
+2021-03-11 18:37:30,902 DEBUG o.h.c.a.PropertyBinder [main] Building property user_password
+2021-03-11 18:37:30,903 DEBUG o.h.c.AnnotationBinder [main] Binding entity from annotated class: com.revature.model.Course
+2021-03-11 18:37:30,903 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2021-03-11 18:37:30,904 DEBUG o.h.c.a.EntityBinder [main] Import with entity name Course
+2021-03-11 18:37:30,904 DEBUG o.h.c.a.EntityBinder [main] Bind entity com.revature.model.Course on table course
+2021-03-11 18:37:30,906 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(course), mappingColumn=courseId, insertable=true, updatable=true, unique=false}
+2021-03-11 18:37:30,906 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] Not known whether passed class name [com.revature.model.Course] is safe
+2021-03-11 18:37:30,907 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.revature.model.Course
+2021-03-11 18:37:30,907 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property courseId with lazy=false
+2021-03-11 18:37:30,907 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [com.revature.model.Course:courseId]
+2021-03-11 18:37:30,907 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for courseId
+2021-03-11 18:37:30,907 DEBUG o.h.c.a.PropertyBinder [main] Building property courseId
+2021-03-11 18:37:30,908 DEBUG o.h.c.BinderHelper [main] #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(courseId)]), courseId, identity, , ...)
+2021-03-11 18:37:30,908 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(course), mappingColumn=access_code, insertable=true, updatable=true, unique=false}
+2021-03-11 18:37:30,908 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property access_code with lazy=false
+2021-03-11 18:37:30,908 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [com.revature.model.Course:access_code]
+2021-03-11 18:37:30,909 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for access_code
+2021-03-11 18:37:30,909 DEBUG o.h.c.a.PropertyBinder [main] Building property access_code
+2021-03-11 18:37:30,909 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3JoinColumn{logicalColumnName='creator', referencedColumn='', mappedBy=''}
+2021-03-11 18:37:30,909 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(course), mappingColumn=creator, insertable=true, updatable=true, unique=false}
+2021-03-11 18:37:30,911 DEBUG o.h.c.a.PropertyBinder [main] Building property creator
+2021-03-11 18:37:30,912 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(course), mappingColumn=date_created, insertable=true, updatable=true, unique=false}
+2021-03-11 18:37:30,913 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property date_created with lazy=false
+2021-03-11 18:37:30,913 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [com.revature.model.Course:date_created]
+2021-03-11 18:37:30,913 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for date_created
+2021-03-11 18:37:30,914 DEBUG o.h.c.a.PropertyBinder [main] Building property date_created
+2021-03-11 18:37:30,914 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(course), mappingColumn=description, insertable=true, updatable=true, unique=false}
+2021-03-11 18:37:30,914 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property description with lazy=false
+2021-03-11 18:37:30,914 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [com.revature.model.Course:description]
+2021-03-11 18:37:30,915 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for description
+2021-03-11 18:37:30,915 DEBUG o.h.c.a.PropertyBinder [main] Building property description
+2021-03-11 18:37:30,915 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(course), mappingColumn=number_enrolled, insertable=true, updatable=true, unique=false}
+2021-03-11 18:37:30,915 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property number_enrolled with lazy=false
+2021-03-11 18:37:30,917 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [com.revature.model.Course:number_enrolled]
+2021-03-11 18:37:30,918 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for number_enrolled
+2021-03-11 18:37:30,918 DEBUG o.h.c.a.PropertyBinder [main] Building property number_enrolled
+2021-03-11 18:37:30,919 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(course), mappingColumn=public_access, insertable=true, updatable=true, unique=false}
+2021-03-11 18:37:30,919 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property public_access with lazy=false
+2021-03-11 18:37:30,919 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [com.revature.model.Course:public_access]
+2021-03-11 18:37:30,919 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for public_access
+2021-03-11 18:37:30,919 DEBUG o.h.c.a.PropertyBinder [main] Building property public_access
+2021-03-11 18:37:30,920 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(course), mappingColumn=title, insertable=true, updatable=true, unique=false}
+2021-03-11 18:37:30,920 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property title with lazy=false
+2021-03-11 18:37:30,920 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [com.revature.model.Course:title]
+2021-03-11 18:37:30,920 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for title
+2021-03-11 18:37:30,920 DEBUG o.h.c.a.PropertyBinder [main] Building property title
+2021-03-11 18:37:30,921 DEBUG o.h.c.AnnotationBinder [main] Binding entity from annotated class: com.revature.model.Lesson
+2021-03-11 18:37:30,921 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2021-03-11 18:37:30,921 DEBUG o.h.c.a.EntityBinder [main] Import with entity name Lesson
+2021-03-11 18:37:30,921 DEBUG o.h.c.a.EntityBinder [main] Bind entity com.revature.model.Lesson on table lesson
+2021-03-11 18:37:30,922 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(lesson), mappingColumn=lessonId, insertable=true, updatable=true, unique=false}
+2021-03-11 18:37:30,922 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] Not known whether passed class name [com.revature.model.Lesson] is safe
+2021-03-11 18:37:30,922 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.revature.model.Lesson
+2021-03-11 18:37:30,922 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property lessonId with lazy=false
+2021-03-11 18:37:30,922 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [com.revature.model.Lesson:lessonId]
+2021-03-11 18:37:30,923 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for lessonId
+2021-03-11 18:37:30,923 DEBUG o.h.c.a.PropertyBinder [main] Building property lessonId
+2021-03-11 18:37:30,923 DEBUG o.h.c.BinderHelper [main] #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(lessonId)]), lessonId, identity, , ...)
+2021-03-11 18:37:30,923 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3JoinColumn{logicalColumnName='courseId', referencedColumn='', mappedBy=''}
+2021-03-11 18:37:30,923 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(lesson), mappingColumn=course, insertable=true, updatable=true, unique=false}
+2021-03-11 18:37:30,924 DEBUG o.h.c.a.PropertyBinder [main] Building property course
+2021-03-11 18:37:30,924 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(lesson), mappingColumn=file_location, insertable=true, updatable=true, unique=false}
+2021-03-11 18:37:30,924 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property file_location with lazy=false
+2021-03-11 18:37:30,924 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [com.revature.model.Lesson:file_location]
+2021-03-11 18:37:30,924 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for file_location
+2021-03-11 18:37:30,924 DEBUG o.h.c.a.PropertyBinder [main] Building property file_location
+2021-03-11 18:37:30,924 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(lesson), mappingColumn=title, insertable=true, updatable=true, unique=false}
+2021-03-11 18:37:30,925 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property title with lazy=false
+2021-03-11 18:37:30,925 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [com.revature.model.Lesson:title]
+2021-03-11 18:37:30,925 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for title
+2021-03-11 18:37:30,925 DEBUG o.h.c.a.PropertyBinder [main] Building property title
+2021-03-11 18:37:30,925 DEBUG o.h.c.AnnotationBinder [main] Binding entity from annotated class: com.revature.model.Comment
+2021-03-11 18:37:30,925 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2021-03-11 18:37:30,925 DEBUG o.h.c.a.EntityBinder [main] Import with entity name Comment
+2021-03-11 18:37:30,926 DEBUG o.h.c.a.EntityBinder [main] Bind entity com.revature.model.Comment on table user_comment
+2021-03-11 18:37:30,927 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_comment), mappingColumn=commentId, insertable=true, updatable=true, unique=false}
+2021-03-11 18:37:30,928 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] Not known whether passed class name [com.revature.model.Comment] is safe
+2021-03-11 18:37:30,928 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.revature.model.Comment
+2021-03-11 18:37:30,928 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property commentId with lazy=false
+2021-03-11 18:37:30,928 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [com.revature.model.Comment:commentId]
+2021-03-11 18:37:30,928 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for commentId
+2021-03-11 18:37:30,929 DEBUG o.h.c.a.PropertyBinder [main] Building property commentId
+2021-03-11 18:37:30,929 DEBUG o.h.c.BinderHelper [main] #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(commentId)]), commentId, identity, , ...)
+2021-03-11 18:37:30,929 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3JoinColumn{logicalColumnName='authorId', referencedColumn='', mappedBy=''}
+2021-03-11 18:37:30,929 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_comment), mappingColumn=author, insertable=true, updatable=true, unique=false}
+2021-03-11 18:37:30,930 DEBUG o.h.c.a.PropertyBinder [main] Building property author
+2021-03-11 18:37:30,930 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_comment), mappingColumn=lesson_comment, insertable=true, updatable=true, unique=false}
+2021-03-11 18:37:30,930 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property comment with lazy=false
+2021-03-11 18:37:30,931 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [com.revature.model.Comment:comment]
+2021-03-11 18:37:30,931 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for comment
+2021-03-11 18:37:30,931 DEBUG o.h.c.a.PropertyBinder [main] Building property comment
+2021-03-11 18:37:30,931 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_comment), mappingColumn=comment_date, insertable=true, updatable=true, unique=false}
+2021-03-11 18:37:30,932 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property comment_date with lazy=false
+2021-03-11 18:37:30,932 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [com.revature.model.Comment:comment_date]
+2021-03-11 18:37:30,932 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for comment_date
+2021-03-11 18:37:30,932 DEBUG o.h.c.a.PropertyBinder [main] Building property comment_date
+2021-03-11 18:37:30,932 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_comment), mappingColumn=dislike_counter, insertable=true, updatable=true, unique=false}
+2021-03-11 18:37:30,932 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property dislike_counter with lazy=false
+2021-03-11 18:37:30,933 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [com.revature.model.Comment:dislike_counter]
+2021-03-11 18:37:30,933 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for dislike_counter
+2021-03-11 18:37:30,933 DEBUG o.h.c.a.PropertyBinder [main] Building property dislike_counter
+2021-03-11 18:37:30,933 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3JoinColumn{logicalColumnName='lessonId', referencedColumn='', mappedBy=''}
+2021-03-11 18:37:30,933 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_comment), mappingColumn=lesson, insertable=true, updatable=true, unique=false}
+2021-03-11 18:37:30,933 DEBUG o.h.c.a.PropertyBinder [main] Building property lesson
+2021-03-11 18:37:30,934 DEBUG o.h.c.Ejb3Column [main] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_comment), mappingColumn=like_counter, insertable=true, updatable=true, unique=false}
+2021-03-11 18:37:30,934 DEBUG o.h.c.a.PropertyBinder [main] MetadataSourceProcessor property like_counter with lazy=false
+2021-03-11 18:37:30,934 DEBUG o.h.c.AbstractPropertyHolder [main] Attempting to locate auto-apply AttributeConverter for property [com.revature.model.Comment:like_counter]
+2021-03-11 18:37:30,934 DEBUG o.h.c.a.SimpleValueBinder [main] building SimpleValue for like_counter
+2021-03-11 18:37:30,934 DEBUG o.h.c.a.PropertyBinder [main] Building property like_counter
+2021-03-11 18:37:30,935 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for userId
+2021-03-11 18:37:30,936 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for email
+2021-03-11 18:37:30,936 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for first_name
+2021-03-11 18:37:30,936 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for last_name
+2021-03-11 18:37:30,936 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for user_password
+2021-03-11 18:37:30,936 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for courseId
+2021-03-11 18:37:30,936 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for access_code
+2021-03-11 18:37:30,936 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for date_created
+2021-03-11 18:37:30,936 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for description
+2021-03-11 18:37:30,936 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for number_enrolled
+2021-03-11 18:37:30,937 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for public_access
+2021-03-11 18:37:30,937 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for title
+2021-03-11 18:37:30,937 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for lessonId
+2021-03-11 18:37:30,937 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for file_location
+2021-03-11 18:37:30,937 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for title
+2021-03-11 18:37:30,937 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for commentId
+2021-03-11 18:37:30,937 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for comment
+2021-03-11 18:37:30,937 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for comment_date
+2021-03-11 18:37:30,937 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for dislike_counter
+2021-03-11 18:37:30,938 DEBUG o.h.c.a.SimpleValueBinder [main] Starting fillSimpleValue for like_counter
+2021-03-11 18:37:30,954 DEBUG o.h.m.PrimaryKey [main] Forcing column [userid] to be non-null as it is part of the primary key for table [users]
+2021-03-11 18:37:30,954 DEBUG o.h.m.PrimaryKey [main] Forcing column [courseid] to be non-null as it is part of the primary key for table [course]
+2021-03-11 18:37:30,954 DEBUG o.h.m.PrimaryKey [main] Forcing column [lessonid] to be non-null as it is part of the primary key for table [lesson]
+2021-03-11 18:37:30,954 DEBUG o.h.m.PrimaryKey [main] Forcing column [commentid] to be non-null as it is part of the primary key for table [user_comment]
+2021-03-11 18:37:30,954 DEBUG o.h.c.CollectionSecondPass [main] Second pass for collection: com.revature.model.User.enrolled_courses
+2021-03-11 18:37:30,954 DEBUG o.h.c.a.CollectionBinder [main] Binding as ManyToMany: com.revature.model.User.enrolled_courses
+2021-03-11 18:37:30,976 DEBUG o.h.m.PrimaryKey [main] Forcing column [userid] to be non-null as it is part of the primary key for table [users_course]
+2021-03-11 18:37:30,976 DEBUG o.h.m.PrimaryKey [main] Forcing column [courseid] to be non-null as it is part of the primary key for table [users_course]
+2021-03-11 18:37:30,976 DEBUG o.h.c.CollectionSecondPass [main] Mapped collection key: userId, element: courseId
+2021-03-11 18:37:30,976 DEBUG o.h.b.i.InFlightMetadataCollectorImpl [main] Resolving reference to class: com.revature.model.User
+2021-03-11 18:37:30,978 DEBUG o.h.b.i.InFlightMetadataCollectorImpl [main] Resolving reference to class: com.revature.model.Course
+2021-03-11 18:37:30,979 DEBUG o.h.b.i.InFlightMetadataCollectorImpl [main] Resolving reference to class: com.revature.model.User
+2021-03-11 18:37:30,979 DEBUG o.h.b.i.InFlightMetadataCollectorImpl [main] Resolving reference to class: com.revature.model.Lesson
+2021-03-11 18:37:30,979 DEBUG o.h.b.i.InFlightMetadataCollectorImpl [main] Resolving reference to class: com.revature.model.Course
+2021-03-11 18:37:30,979 DEBUG o.h.b.i.InFlightMetadataCollectorImpl [main] Resolving reference to class: com.revature.model.User
+2021-03-11 18:37:30,992 DEBUG o.h.b.i.InFlightMetadataCollectorImpl [main] Resolving reference to class: com.revature.model.User
+2021-03-11 18:37:30,992 DEBUG o.h.b.i.InFlightMetadataCollectorImpl [main] Resolving reference to class: com.revature.model.Course
+2021-03-11 18:37:30,992 DEBUG o.h.b.i.InFlightMetadataCollectorImpl [main] Resolving reference to class: com.revature.model.User
+2021-03-11 18:37:30,993 DEBUG o.h.b.i.InFlightMetadataCollectorImpl [main] Resolving reference to class: com.revature.model.Lesson
+2021-03-11 18:37:30,993 DEBUG o.h.b.i.InFlightMetadataCollectorImpl [main] Resolving reference to class: com.revature.model.Course
+2021-03-11 18:37:30,993 DEBUG o.h.b.i.InFlightMetadataCollectorImpl [main] Resolving reference to class: com.revature.model.User
+2021-03-11 18:37:31,120 DEBUG o.h.i.SessionFactoryImpl [main] Building session factory
+2021-03-11 18:37:31,121 DEBUG o.h.c.Settings [main] SessionFactory name : null
+2021-03-11 18:37:31,121 DEBUG o.h.c.Settings [main] Automatic flush during beforeCompletion(): enabled
+2021-03-11 18:37:31,121 DEBUG o.h.c.Settings [main] Automatic session close at end of transaction: disabled
+2021-03-11 18:37:31,121 DEBUG o.h.c.Settings [main] Statistics: disabled
+2021-03-11 18:37:31,122 DEBUG o.h.c.Settings [main] Deleted entity synthetic identifier rollback: disabled
+2021-03-11 18:37:31,122 DEBUG o.h.c.Settings [main] Default entity-mode: pojo
+2021-03-11 18:37:31,122 DEBUG o.h.c.Settings [main] Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2021-03-11 18:37:31,122 DEBUG o.h.c.Settings [main] Allow initialization of lazy state outside session : disabled
+2021-03-11 18:37:31,123 DEBUG o.h.c.Settings [main] Using BatchFetchStyle : LEGACY
+2021-03-11 18:37:31,123 DEBUG o.h.c.Settings [main] Default batch fetch size: -1
+2021-03-11 18:37:31,123 DEBUG o.h.c.Settings [main] Maximum outer join fetch depth: null
+2021-03-11 18:37:31,123 DEBUG o.h.c.Settings [main] Default null ordering: NONE
+2021-03-11 18:37:31,123 DEBUG o.h.c.Settings [main] Order SQL updates by primary key: disabled
+2021-03-11 18:37:31,123 DEBUG o.h.c.Settings [main] Order SQL inserts for batching: disabled
+2021-03-11 18:37:31,123 DEBUG o.h.c.Settings [main] multi-tenancy strategy : NONE
+2021-03-11 18:37:31,123 DEBUG o.h.c.Settings [main] JTA Track by Thread: enabled
+2021-03-11 18:37:31,123 DEBUG o.h.c.Settings [main] Query language substitutions: {}
+2021-03-11 18:37:31,123 DEBUG o.h.c.Settings [main] Named query checking : enabled
+2021-03-11 18:37:31,123 DEBUG o.h.c.Settings [main] Second-level cache: disabled
+2021-03-11 18:37:31,124 DEBUG o.h.c.Settings [main] Second-level query cache: disabled
+2021-03-11 18:37:31,124 DEBUG o.h.c.Settings [main] Second-level query cache factory: null
+2021-03-11 18:37:31,124 DEBUG o.h.c.Settings [main] Second-level cache region prefix: null
+2021-03-11 18:37:31,124 DEBUG o.h.c.Settings [main] Optimize second-level cache for minimal puts: disabled
+2021-03-11 18:37:31,124 DEBUG o.h.c.Settings [main] Structured second-level cache entries: disabled
+2021-03-11 18:37:31,124 DEBUG o.h.c.Settings [main] Second-level cache direct-reference entries: disabled
+2021-03-11 18:37:31,124 DEBUG o.h.c.Settings [main] Automatic eviction of collection cache: disabled
+2021-03-11 18:37:31,124 DEBUG o.h.c.Settings [main] JDBC batch size: 15
+2021-03-11 18:37:31,124 DEBUG o.h.c.Settings [main] JDBC batch updates for versioned data: enabled
+2021-03-11 18:37:31,124 DEBUG o.h.c.Settings [main] Scrollable result sets: enabled
+2021-03-11 18:37:31,125 DEBUG o.h.c.Settings [main] Wrap result sets: disabled
+2021-03-11 18:37:31,125 DEBUG o.h.c.Settings [main] JDBC3 getGeneratedKeys(): enabled
+2021-03-11 18:37:31,125 DEBUG o.h.c.Settings [main] JDBC result set fetch size: null
+2021-03-11 18:37:31,125 DEBUG o.h.c.Settings [main] Connection release mode: AFTER_TRANSACTION
+2021-03-11 18:37:31,125 DEBUG o.h.c.Settings [main] Generate SQL with comments: disabled
+2021-03-11 18:37:31,125 DEBUG o.h.c.Settings [main] JPA compliance - query : disabled
+2021-03-11 18:37:31,125 DEBUG o.h.c.Settings [main] JPA compliance - closed-handling : disabled
+2021-03-11 18:37:31,125 DEBUG o.h.c.Settings [main] JPA compliance - lists : disabled
+2021-03-11 18:37:31,125 DEBUG o.h.c.Settings [main] JPA compliance - transactions : disabled
+2021-03-11 18:37:31,170 DEBUG o.h.i.SessionFactoryImpl [main] Session factory constructed with filter configurations : {}
+2021-03-11 18:37:31,171 DEBUG o.h.i.SessionFactoryImpl [main] Instantiating session factory with properties: {java.specification.version=15, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect, java.class.path=C:\Users\jason\Desktop\P2\Revature-P2\ILearn\target\classes;C:\Users\jason\.m2\repository\org\postgresql\postgresql\42.2.19\postgresql-42.2.19.jar;C:\Users\jason\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\jason\.m2\repository\org\hibernate\hibernate-core\5.4.28.Final\hibernate-core-5.4.28.Final.jar;C:\Users\jason\.m2\repository\org\jboss\logging\jboss-logging\3.4.1.Final\jboss-logging-3.4.1.Final.jar;C:\Users\jason\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\jason\.m2\repository\org\javassist\javassist\3.27.0-GA\javassist-3.27.0-GA.jar;C:\Users\jason\.m2\repository\net\bytebuddy\byte-buddy\1.10.17\byte-buddy-1.10.17.jar;C:\Users\jason\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\jason\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\jason\.m2\repository\org\jboss\jandex\2.2.3.Final\jandex-2.2.3.Final.jar;C:\Users\jason\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\jason\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\jason\.m2\repository\org\dom4j\dom4j\2.1.3\dom4j-2.1.3.jar;C:\Users\jason\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\jason\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\jason\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\Users\jason\.m2\repository\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\Users\jason\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\jason\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\jason\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\jason\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.2\log4j-core-2.11.2.jar;C:\Users\jason\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.2\log4j-api-2.11.2.jar;C:\Users\jason\.m2\repository\org\springframework\spring-context\4.3.9.RELEASE\spring-context-4.3.9.RELEASE.jar;C:\Users\jason\.m2\repository\org\springframework\spring-aop\4.3.9.RELEASE\spring-aop-4.3.9.RELEASE.jar;C:\Users\jason\.m2\repository\org\springframework\spring-beans\4.3.9.RELEASE\spring-beans-4.3.9.RELEASE.jar;C:\Users\jason\.m2\repository\org\springframework\spring-core\4.3.9.RELEASE\spring-core-4.3.9.RELEASE.jar;C:\Users\jason\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\jason\.m2\repository\org\springframework\spring-expression\4.3.9.RELEASE\spring-expression-4.3.9.RELEASE.jar;C:\Users\jason\.m2\repository\org\springframework\spring-webmvc\4.3.9.RELEASE\spring-webmvc-4.3.9.RELEASE.jar;C:\Users\jason\.m2\repository\org\springframework\spring-web\4.3.9.RELEASE\spring-web-4.3.9.RELEASE.jar;C:\Users\jason\.m2\repository\javax\servlet\javax.servlet-api\3.0.1\javax.servlet-api-3.0.1.jar;C:\Users\jason\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.7\jackson-databind-2.9.7.jar;C:\Users\jason\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\jason\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.7\jackson-core-2.9.7.jar;C:\Users\jason\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.9.7\jackson-datatype-jsr310-2.9.7.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, hbm2ddl.auto=validate, user.variant=, java.vendor.url=https://java.oracle.com/, user.timezone=America/New_York, java.vm.specification.version=15, os.name=Windows 8, sun.java.launcher=SUN_STANDARD, user.country=US, sun.boot.library.path=C:\Users\jason\Downloads\sts\sts-4.8.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.0.v20201014-1246\jre\bin, sun.java.command=com.revature.Driver, jdk.debug=release, sun.cpu.endian=little, user.home=C:\Users\jason, user.language=en, java.specification.vendor=Oracle Corporation, java.version.date=2020-09-15, java.home=C:\Users\jason\Downloads\sts\sts-4.8.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.0.v20201014-1246\jre, file.separator=\, java.vm.compressedOopsMode=32-bit, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, hibernate.hbm2ddl.auto=validate, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=15+36-1562, user.name=jason, path.separator=;, hibernate.connection.username=****, os.version=6.2, java.runtime.name=OpenJDK Runtime Environment, hibernate.connection.url=jdbc:postgresql://myawsinstance.ce9pchs8wm6f.us-east-2.rds.amazonaws.com:5432/p2, file.encoding=Cp1252, java.vm.name=OpenJDK 64-Bit Server VM, hibernate.show_sql=true, hibernate.current_session_context_class=thread, show_sql=true, hibernate.connection.driver_class=org.postgresql.Driver, java.vendor.url.bug=https://bugreport.java.com/bugreport/, java.io.tmpdir=C:\Users\jason\AppData\Local\Temp\, java.version=15, user.dir=C:\Users\jason\Desktop\P2\Revature-P2\ILearn, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, hibernate.connection.password=****, sun.os.patch.level=, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@338766de, java.library.path=C:\Users\jason\Downloads\sts\sts-4.8.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.0.v20201014-1246\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/jason/Downloads/sts/sts-4.8.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.0.v20201014-1246/jre/bin/server;C:/Users/jason/Downloads/sts/sts-4.8.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.0.v20201014-1246/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\jason\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\PuTTY\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Python38;C:\Program Files\Git\cmd;C:\Program Files (x86)\gnupg\bin;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Maven\apache-maven-3.6.3\bin;C:\Users\jason\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\jason\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\jason\AppData\Local\Programs\Python\Python38-32\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Users\jason\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\jason\AppData\Roaming\npm;C:\Users\jason\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\jason\Downloads\sts\sts-4.8.1.RELEASE;;., java.vendor=Oracle Corporation, java.vm.info=mixed mode, java.vm.version=15+36-1562, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, hibernate.connection.pool_size=5, java.class.version=59.0}
+2021-03-11 18:37:31,180 DEBUG o.h.s.s.JaccIntegrator [main] Skipping JACC integration as it was not enabled
+2021-03-11 18:37:31,181 DEBUG o.h.i.SessionFactoryImpl [main] Instantiated session factory
+2021-03-11 18:37:31,182 DEBUG o.h.t.s.TypeConfiguration [main] Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@7903d448] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@2f74900b]
+2021-03-11 18:37:31,233 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] Not known whether passed class name [com.revature.model.Course] is safe
+2021-03-11 18:37:31,233 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.revature.model.Course
+2021-03-11 18:37:31,383 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] Not known whether passed class name [com.revature.model.Comment] is safe
+2021-03-11 18:37:31,383 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.revature.model.Comment
+2021-03-11 18:37:31,400 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] Not known whether passed class name [com.revature.model.Lesson] is safe
+2021-03-11 18:37:31,401 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.revature.model.Lesson
+2021-03-11 18:37:31,413 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] Not known whether passed class name [com.revature.model.User] is safe
+2021-03-11 18:37:31,413 DEBUG o.h.b.i.ClassLoaderAccessImpl [main] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.revature.model.User
+2021-03-11 18:37:31,437 DEBUG o.h.p.c.AbstractCollectionPersister [main] Static SQL for collection: com.revature.model.User.enrolled_courses
+2021-03-11 18:37:31,437 DEBUG o.h.p.c.AbstractCollectionPersister [main]  Row insert: insert into users_course (userId, courseId) values (?, ?)
+2021-03-11 18:37:31,437 DEBUG o.h.p.c.AbstractCollectionPersister [main]  Row update: update users_course set courseId=? where userId=? and courseId=?
+2021-03-11 18:37:31,437 DEBUG o.h.p.c.AbstractCollectionPersister [main]  Row delete: delete from users_course where userId=? and courseId=?
+2021-03-11 18:37:31,437 DEBUG o.h.p.c.AbstractCollectionPersister [main]  One-shot delete: delete from users_course where userId=?
+2021-03-11 18:37:31,441 DEBUG o.h.p.e.AbstractEntityPersister [main] Static SQL for entity: com.revature.model.Course
+2021-03-11 18:37:31,441 DEBUG o.h.p.e.AbstractEntityPersister [main]  Version select: select courseId from course where courseId =?
+2021-03-11 18:37:31,441 DEBUG o.h.p.e.AbstractEntityPersister [main]  Snapshot select: select course_.courseId, course_.access_code as access_c2_0_, course_.creator as creator8_0_, course_.date_created as date_cre3_0_, course_.description as descript4_0_, course_.number_enrolled as number_e5_0_, course_.public_access as public_a6_0_, course_.title as title7_0_ from course course_ where course_.courseId=?
+2021-03-11 18:37:31,441 DEBUG o.j.l.DelegatingBasicLogger [main]  Insert 0: insert into course (access_code, creator, date_created, description, number_enrolled, public_access, title, courseId) values (?, ?, ?, ?, ?, ?, ?, ?)
+2021-03-11 18:37:31,441 DEBUG o.j.l.DelegatingBasicLogger [main]  Update 0: update course set access_code=?, creator=?, date_created=?, description=?, number_enrolled=?, public_access=?, title=? where courseId=?
+2021-03-11 18:37:31,441 DEBUG o.j.l.DelegatingBasicLogger [main]  Delete 0: delete from course where courseId=?
+2021-03-11 18:37:31,441 DEBUG o.h.p.e.AbstractEntityPersister [main]  Identity insert: insert into course (access_code, creator, date_created, description, number_enrolled, public_access, title) values (?, ?, ?, ?, ?, ?, ?)
+2021-03-11 18:37:31,462 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2443135]
+2021-03-11 18:37:31,463 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : access_code
+2021-03-11 18:37:31,463 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : creator
+2021-03-11 18:37:31,465 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@62ade015]
+2021-03-11 18:37:31,466 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : creator.email
+2021-03-11 18:37:31,466 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : creator.enrolled_courses
+2021-03-11 18:37:31,467 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@437bd805]
+2021-03-11 18:37:31,468 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3daf03d8]
+2021-03-11 18:37:31,468 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : creator.first_name
+2021-03-11 18:37:31,468 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : creator.last_name
+2021-03-11 18:37:31,468 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : creator.user_password
+2021-03-11 18:37:31,468 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : date_created
+2021-03-11 18:37:31,468 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : description
+2021-03-11 18:37:31,469 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : number_enrolled
+2021-03-11 18:37:31,469 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : public_access
+2021-03-11 18:37:31,469 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : title
+2021-03-11 18:37:31,469 DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy [main] Building LoadPlan...
+2021-03-11 18:37:31,476 DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor [main] processing queryspace <gen:0>
+2021-03-11 18:37:31,479 DEBUG o.h.l.p.b.s.LoadPlanTreePrinter [main] LoadPlan(entity=com.revature.model.Course)
+    - Returns
+       - EntityReturnImpl(entity=com.revature.model.Course, querySpaceUid=<gen:0>, path=com.revature.model.Course)
+          - EntityAttributeFetchImpl(entity=com.revature.model.User, querySpaceUid=<gen:1>, path=com.revature.model.Course.creator)
+             - CollectionAttributeFetchImpl(collection=com.revature.model.User.enrolled_courses, querySpaceUid=<gen:2>, path=com.revature.model.Course.creator.enrolled_courses)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=com.revature.model.Course, querySpaceUid=<gen:3>, path=com.revature.model.Course.creator.enrolled_courses.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.revature.model.Course)
+          - SQL table alias mapping - course0_
+          - alias suffix - 0_
+          - suffixed key columns - {courseid1_0_0_}
+          - JOIN (JoinDefinedByMetadata(creator)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.revature.model.User)
+                - SQL table alias mapping - user1_
+                - alias suffix - 1_
+                - suffixed key columns - {userid1_3_1_}
+
+2021-03-11 18:37:31,481 DEBUG o.h.l.e.p.EntityLoader [main] Static select for entity com.revature.model.Course [NONE]: select course0_.courseId as courseid1_0_0_, course0_.access_code as access_c2_0_0_, course0_.creator as creator8_0_0_, course0_.date_created as date_cre3_0_0_, course0_.description as descript4_0_0_, course0_.number_enrolled as number_e5_0_0_, course0_.public_access as public_a6_0_0_, course0_.title as title7_0_0_, user1_.userId as userid1_3_1_, user1_.email as email2_3_1_, user1_.first_name as first_na3_3_1_, user1_.last_name as last_nam4_3_1_, user1_.user_password as user_pas5_3_1_ from course course0_ left outer join users user1_ on course0_.creator=user1_.userId where course0_.courseId=?
+2021-03-11 18:37:31,481 DEBUG o.h.p.e.AbstractEntityPersister [main] Static SQL for entity: com.revature.model.Comment
+2021-03-11 18:37:31,481 DEBUG o.h.p.e.AbstractEntityPersister [main]  Version select: select commentId from user_comment where commentId =?
+2021-03-11 18:37:31,482 DEBUG o.h.p.e.AbstractEntityPersister [main]  Snapshot select: select comment_.commentId, comment_.authorId as authorid6_2_, comment_.lesson_comment as lesson_c2_2_, comment_.comment_date as comment_3_2_, comment_.dislike_counter as dislike_4_2_, comment_.lessonId as lessonid7_2_, comment_.like_counter as like_cou5_2_ from user_comment comment_ where comment_.commentId=?
+2021-03-11 18:37:31,482 DEBUG o.j.l.DelegatingBasicLogger [main]  Insert 0: insert into user_comment (authorId, lesson_comment, comment_date, dislike_counter, lessonId, like_counter, commentId) values (?, ?, ?, ?, ?, ?, ?)
+2021-03-11 18:37:31,482 DEBUG o.j.l.DelegatingBasicLogger [main]  Update 0: update user_comment set authorId=?, lesson_comment=?, comment_date=?, dislike_counter=?, lessonId=?, like_counter=? where commentId=?
+2021-03-11 18:37:31,482 DEBUG o.j.l.DelegatingBasicLogger [main]  Delete 0: delete from user_comment where commentId=?
+2021-03-11 18:37:31,482 DEBUG o.h.p.e.AbstractEntityPersister [main]  Identity insert: insert into user_comment (authorId, lesson_comment, comment_date, dislike_counter, lessonId, like_counter) values (?, ?, ?, ?, ?, ?)
+2021-03-11 18:37:31,482 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5234b61a]
+2021-03-11 18:37:31,482 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : author
+2021-03-11 18:37:31,482 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@54c425b1]
+2021-03-11 18:37:31,483 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : author.email
+2021-03-11 18:37:31,483 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : author.enrolled_courses
+2021-03-11 18:37:31,483 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@2744dcae]
+2021-03-11 18:37:31,483 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@16d0e521]
+2021-03-11 18:37:31,483 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : author.first_name
+2021-03-11 18:37:31,483 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : author.last_name
+2021-03-11 18:37:31,483 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : author.user_password
+2021-03-11 18:37:31,483 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : comment
+2021-03-11 18:37:31,483 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : comment_date
+2021-03-11 18:37:31,483 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : dislike_counter
+2021-03-11 18:37:31,483 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : lesson
+2021-03-11 18:37:31,483 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@634ca3e7]
+2021-03-11 18:37:31,484 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : lesson.course
+2021-03-11 18:37:31,484 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@b14b60a]
+2021-03-11 18:37:31,484 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : lesson.course.access_code
+2021-03-11 18:37:31,484 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : lesson.course.creator
+2021-03-11 18:37:31,484 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:6> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1c297897]
+2021-03-11 18:37:31,484 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : lesson.course.creator.email
+2021-03-11 18:37:31,484 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : lesson.course.creator.enrolled_courses
+2021-03-11 18:37:31,484 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:7> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@1d6a8386]
+2021-03-11 18:37:31,484 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:8> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6274f21c]
+2021-03-11 18:37:31,485 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : lesson.course.creator.first_name
+2021-03-11 18:37:31,485 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : lesson.course.creator.last_name
+2021-03-11 18:37:31,485 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : lesson.course.creator.user_password
+2021-03-11 18:37:31,485 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : lesson.course.date_created
+2021-03-11 18:37:31,485 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : lesson.course.description
+2021-03-11 18:37:31,485 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : lesson.course.number_enrolled
+2021-03-11 18:37:31,485 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : lesson.course.public_access
+2021-03-11 18:37:31,486 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : lesson.course.title
+2021-03-11 18:37:31,486 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : lesson.file_location
+2021-03-11 18:37:31,486 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : lesson.title
+2021-03-11 18:37:31,486 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : like_counter
+2021-03-11 18:37:31,486 DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy [main] Building LoadPlan...
+2021-03-11 18:37:31,487 DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor [main] processing queryspace <gen:0>
+2021-03-11 18:37:31,489 DEBUG o.h.l.p.b.s.LoadPlanTreePrinter [main] LoadPlan(entity=com.revature.model.Comment)
+    - Returns
+       - EntityReturnImpl(entity=com.revature.model.Comment, querySpaceUid=<gen:0>, path=com.revature.model.Comment)
+          - EntityAttributeFetchImpl(entity=com.revature.model.User, querySpaceUid=<gen:1>, path=com.revature.model.Comment.author)
+             - CollectionAttributeFetchImpl(collection=com.revature.model.User.enrolled_courses, querySpaceUid=<gen:2>, path=com.revature.model.Comment.author.enrolled_courses)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=com.revature.model.Course, querySpaceUid=<gen:3>, path=com.revature.model.Comment.author.enrolled_courses.<elements>)
+          - EntityAttributeFetchImpl(entity=com.revature.model.Lesson, querySpaceUid=<gen:4>, path=com.revature.model.Comment.lesson)
+             - EntityAttributeFetchImpl(entity=com.revature.model.Course, querySpaceUid=<gen:5>, path=com.revature.model.Comment.lesson.course)
+                - EntityAttributeFetchImpl(entity=com.revature.model.User, querySpaceUid=<gen:6>, path=com.revature.model.Comment.lesson.course.creator)
+                   - CollectionAttributeFetchImpl(collection=com.revature.model.User.enrolled_courses, querySpaceUid=<gen:7>, path=com.revature.model.Comment.lesson.course.creator.enrolled_courses)
+                      - (collection element) CollectionFetchableElementEntityGraph(entity=com.revature.model.Course, querySpaceUid=<gen:8>, path=com.revature.model.Comment.lesson.course.creator.enrolled_courses.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.revature.model.Comment)
+          - SQL table alias mapping - comment0_
+          - alias suffix - 0_
+          - suffixed key columns - {commenti1_2_0_}
+          - JOIN (JoinDefinedByMetadata(author)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.revature.model.User)
+                - SQL table alias mapping - user1_
+                - alias suffix - 1_
+                - suffixed key columns - {userid1_3_1_}
+          - JOIN (JoinDefinedByMetadata(lesson)) : <gen:0> -> <gen:4>
+             - EntityQuerySpaceImpl(uid=<gen:4>, entity=com.revature.model.Lesson)
+                - SQL table alias mapping - lesson2_
+                - alias suffix - 2_
+                - suffixed key columns - {lessonid1_1_2_}
+                - JOIN (JoinDefinedByMetadata(course)) : <gen:4> -> <gen:5>
+                   - EntityQuerySpaceImpl(uid=<gen:5>, entity=com.revature.model.Course)
+                      - SQL table alias mapping - course3_
+                      - alias suffix - 3_
+                      - suffixed key columns - {courseid1_0_3_}
+                      - JOIN (JoinDefinedByMetadata(creator)) : <gen:5> -> <gen:6>
+                         - EntityQuerySpaceImpl(uid=<gen:6>, entity=com.revature.model.User)
+                            - SQL table alias mapping - user4_
+                            - alias suffix - 4_
+                            - suffixed key columns - {userid1_3_4_}
+
+2021-03-11 18:37:31,489 DEBUG o.h.l.e.p.EntityLoader [main] Static select for entity com.revature.model.Comment [NONE]: select comment0_.commentId as commenti1_2_0_, comment0_.authorId as authorid6_2_0_, comment0_.lesson_comment as lesson_c2_2_0_, comment0_.comment_date as comment_3_2_0_, comment0_.dislike_counter as dislike_4_2_0_, comment0_.lessonId as lessonid7_2_0_, comment0_.like_counter as like_cou5_2_0_, user1_.userId as userid1_3_1_, user1_.email as email2_3_1_, user1_.first_name as first_na3_3_1_, user1_.last_name as last_nam4_3_1_, user1_.user_password as user_pas5_3_1_, lesson2_.lessonId as lessonid1_1_2_, lesson2_.courseId as courseid4_1_2_, lesson2_.file_location as file_loc2_1_2_, lesson2_.title as title3_1_2_, course3_.courseId as courseid1_0_3_, course3_.access_code as access_c2_0_3_, course3_.creator as creator8_0_3_, course3_.date_created as date_cre3_0_3_, course3_.description as descript4_0_3_, course3_.number_enrolled as number_e5_0_3_, course3_.public_access as public_a6_0_3_, course3_.title as title7_0_3_, user4_.userId as userid1_3_4_, user4_.email as email2_3_4_, user4_.first_name as first_na3_3_4_, user4_.last_name as last_nam4_3_4_, user4_.user_password as user_pas5_3_4_ from user_comment comment0_ left outer join users user1_ on comment0_.authorId=user1_.userId left outer join lesson lesson2_ on comment0_.lessonId=lesson2_.lessonId left outer join course course3_ on lesson2_.courseId=course3_.courseId left outer join users user4_ on course3_.creator=user4_.userId where comment0_.commentId=?
+2021-03-11 18:37:31,489 DEBUG o.h.p.e.AbstractEntityPersister [main] Static SQL for entity: com.revature.model.Lesson
+2021-03-11 18:37:31,489 DEBUG o.h.p.e.AbstractEntityPersister [main]  Version select: select lessonId from lesson where lessonId =?
+2021-03-11 18:37:31,489 DEBUG o.h.p.e.AbstractEntityPersister [main]  Snapshot select: select lesson_.lessonId, lesson_.courseId as courseid4_1_, lesson_.file_location as file_loc2_1_, lesson_.title as title3_1_ from lesson lesson_ where lesson_.lessonId=?
+2021-03-11 18:37:31,489 DEBUG o.j.l.DelegatingBasicLogger [main]  Insert 0: insert into lesson (courseId, file_location, title, lessonId) values (?, ?, ?, ?)
+2021-03-11 18:37:31,490 DEBUG o.j.l.DelegatingBasicLogger [main]  Update 0: update lesson set courseId=?, file_location=?, title=? where lessonId=?
+2021-03-11 18:37:31,490 DEBUG o.j.l.DelegatingBasicLogger [main]  Delete 0: delete from lesson where lessonId=?
+2021-03-11 18:37:31,490 DEBUG o.h.p.e.AbstractEntityPersister [main]  Identity insert: insert into lesson (courseId, file_location, title) values (?, ?, ?)
+2021-03-11 18:37:31,490 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@35cec305]
+2021-03-11 18:37:31,490 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : course
+2021-03-11 18:37:31,490 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@491cafec]
+2021-03-11 18:37:31,490 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : course.access_code
+2021-03-11 18:37:31,490 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : course.creator
+2021-03-11 18:37:31,490 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4fa86cb8]
+2021-03-11 18:37:31,491 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : course.creator.email
+2021-03-11 18:37:31,491 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : course.creator.enrolled_courses
+2021-03-11 18:37:31,491 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@7889b4b9]
+2021-03-11 18:37:31,491 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1e545821]
+2021-03-11 18:37:31,491 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : course.creator.first_name
+2021-03-11 18:37:31,491 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : course.creator.last_name
+2021-03-11 18:37:31,491 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : course.creator.user_password
+2021-03-11 18:37:31,491 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : course.date_created
+2021-03-11 18:37:31,491 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : course.description
+2021-03-11 18:37:31,491 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : course.number_enrolled
+2021-03-11 18:37:31,491 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : course.public_access
+2021-03-11 18:37:31,491 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : course.title
+2021-03-11 18:37:31,492 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : file_location
+2021-03-11 18:37:31,492 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : title
+2021-03-11 18:37:31,492 DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy [main] Building LoadPlan...
+2021-03-11 18:37:31,492 DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor [main] processing queryspace <gen:0>
+2021-03-11 18:37:31,493 DEBUG o.h.l.p.b.s.LoadPlanTreePrinter [main] LoadPlan(entity=com.revature.model.Lesson)
+    - Returns
+       - EntityReturnImpl(entity=com.revature.model.Lesson, querySpaceUid=<gen:0>, path=com.revature.model.Lesson)
+          - EntityAttributeFetchImpl(entity=com.revature.model.Course, querySpaceUid=<gen:1>, path=com.revature.model.Lesson.course)
+             - EntityAttributeFetchImpl(entity=com.revature.model.User, querySpaceUid=<gen:2>, path=com.revature.model.Lesson.course.creator)
+                - CollectionAttributeFetchImpl(collection=com.revature.model.User.enrolled_courses, querySpaceUid=<gen:3>, path=com.revature.model.Lesson.course.creator.enrolled_courses)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=com.revature.model.Course, querySpaceUid=<gen:4>, path=com.revature.model.Lesson.course.creator.enrolled_courses.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.revature.model.Lesson)
+          - SQL table alias mapping - lesson0_
+          - alias suffix - 0_
+          - suffixed key columns - {lessonid1_1_0_}
+          - JOIN (JoinDefinedByMetadata(course)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.revature.model.Course)
+                - SQL table alias mapping - course1_
+                - alias suffix - 1_
+                - suffixed key columns - {courseid1_0_1_}
+                - JOIN (JoinDefinedByMetadata(creator)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.revature.model.User)
+                      - SQL table alias mapping - user2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {userid1_3_2_}
+
+2021-03-11 18:37:31,493 DEBUG o.h.l.e.p.EntityLoader [main] Static select for entity com.revature.model.Lesson [NONE]: select lesson0_.lessonId as lessonid1_1_0_, lesson0_.courseId as courseid4_1_0_, lesson0_.file_location as file_loc2_1_0_, lesson0_.title as title3_1_0_, course1_.courseId as courseid1_0_1_, course1_.access_code as access_c2_0_1_, course1_.creator as creator8_0_1_, course1_.date_created as date_cre3_0_1_, course1_.description as descript4_0_1_, course1_.number_enrolled as number_e5_0_1_, course1_.public_access as public_a6_0_1_, course1_.title as title7_0_1_, user2_.userId as userid1_3_2_, user2_.email as email2_3_2_, user2_.first_name as first_na3_3_2_, user2_.last_name as last_nam4_3_2_, user2_.user_password as user_pas5_3_2_ from lesson lesson0_ left outer join course course1_ on lesson0_.courseId=course1_.courseId left outer join users user2_ on course1_.creator=user2_.userId where lesson0_.lessonId=?
+2021-03-11 18:37:31,493 DEBUG o.h.p.e.AbstractEntityPersister [main] Static SQL for entity: com.revature.model.User
+2021-03-11 18:37:31,494 DEBUG o.h.p.e.AbstractEntityPersister [main]  Version select: select userId from users where userId =?
+2021-03-11 18:37:31,494 DEBUG o.h.p.e.AbstractEntityPersister [main]  Snapshot select: select user_.userId, user_.email as email2_3_, user_.first_name as first_na3_3_, user_.last_name as last_nam4_3_, user_.user_password as user_pas5_3_ from users user_ where user_.userId=?
+2021-03-11 18:37:31,494 DEBUG o.j.l.DelegatingBasicLogger [main]  Insert 0: insert into users (email, first_name, last_name, user_password, userId) values (?, ?, ?, ?, ?)
+2021-03-11 18:37:31,494 DEBUG o.j.l.DelegatingBasicLogger [main]  Update 0: update users set email=?, first_name=?, last_name=?, user_password=? where userId=?
+2021-03-11 18:37:31,494 DEBUG o.j.l.DelegatingBasicLogger [main]  Delete 0: delete from users where userId=?
+2021-03-11 18:37:31,494 DEBUG o.h.p.e.AbstractEntityPersister [main]  Identity insert: insert into users (email, first_name, last_name, user_password) values (?, ?, ?, ?)
+2021-03-11 18:37:31,494 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@12952aff]
+2021-03-11 18:37:31,494 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : email
+2021-03-11 18:37:31,494 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : enrolled_courses
+2021-03-11 18:37:31,495 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@433ea2ac]
+2021-03-11 18:37:31,495 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7f977fba]
+2021-03-11 18:37:31,495 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : first_name
+2021-03-11 18:37:31,495 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : last_name
+2021-03-11 18:37:31,495 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : user_password
+2021-03-11 18:37:31,495 DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy [main] Building LoadPlan...
+2021-03-11 18:37:31,495 DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor [main] processing queryspace <gen:0>
+2021-03-11 18:37:31,496 DEBUG o.h.l.p.b.s.LoadPlanTreePrinter [main] LoadPlan(entity=com.revature.model.User)
+    - Returns
+       - EntityReturnImpl(entity=com.revature.model.User, querySpaceUid=<gen:0>, path=com.revature.model.User)
+          - CollectionAttributeFetchImpl(collection=com.revature.model.User.enrolled_courses, querySpaceUid=<gen:1>, path=com.revature.model.User.enrolled_courses)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.revature.model.Course, querySpaceUid=<gen:2>, path=com.revature.model.User.enrolled_courses.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.revature.model.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {userid1_3_0_}
+
+2021-03-11 18:37:31,496 DEBUG o.h.l.e.p.EntityLoader [main] Static select for entity com.revature.model.User [NONE]: select user0_.userId as userid1_3_0_, user0_.email as email2_3_0_, user0_.first_name as first_na3_3_0_, user0_.last_name as last_nam4_3_0_, user0_.user_password as user_pas5_3_0_ from users user0_ where user0_.userId=?
+2021-03-11 18:37:31,498 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@457a5b2d]
+2021-03-11 18:37:31,499 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@79d7035]
+2021-03-11 18:37:31,499 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : access_code
+2021-03-11 18:37:31,499 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : creator
+2021-03-11 18:37:31,499 DEBUG o.h.l.p.b.i.s.QuerySpacesImpl [main] Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7fbf26fc]
+2021-03-11 18:37:31,499 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : creator.email
+2021-03-11 18:37:31,500 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : creator.enrolled_courses
+2021-03-11 18:37:31,500 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Property path deemed to be circular : creator.enrolled_courses
+2021-03-11 18:37:31,500 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : creator.first_name
+2021-03-11 18:37:31,500 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : creator.last_name
+2021-03-11 18:37:31,500 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : creator.user_password
+2021-03-11 18:37:31,500 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : date_created
+2021-03-11 18:37:31,500 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : description
+2021-03-11 18:37:31,500 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : number_enrolled
+2021-03-11 18:37:31,500 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : public_access
+2021-03-11 18:37:31,500 DEBUG o.h.p.w.s.MetamodelGraphWalker [main] Visiting attribute path : title
+2021-03-11 18:37:31,501 DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy [main] Building LoadPlan...
+2021-03-11 18:37:31,503 DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor [main] processing queryspace <gen:0>
+2021-03-11 18:37:31,504 DEBUG o.h.l.p.b.s.LoadPlanTreePrinter [main] LoadPlan(collection=com.revature.model.User.enrolled_courses)
+    - Returns
+       - CollectionReturnImpl(collection=com.revature.model.User.enrolled_courses, querySpaceUid=<gen:0>, path=[com.revature.model.User.enrolled_courses])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=com.revature.model.Course, querySpaceUid=<gen:1>, path=[com.revature.model.User.enrolled_courses].<elements>)
+             - EntityAttributeFetchImpl(entity=com.revature.model.User, querySpaceUid=<gen:2>, path=[com.revature.model.User.enrolled_courses].<elements>.creator)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=com.revature.model.User.enrolled_courses)
+          - SQL table alias mapping - enrolled_c0_
+          - alias suffix - 0_
+          - suffixed key columns - {userid1_4_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - courseid1_0_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.revature.model.Course)
+                - SQL table alias mapping - course1_
+                - alias suffix - 1_
+                - suffixed key columns - {courseid1_0_1_}
+                - JOIN (JoinDefinedByMetadata(creator)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.revature.model.User)
+                      - SQL table alias mapping - user2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {userid1_3_2_}
+
+2021-03-11 18:37:31,504 DEBUG o.h.l.c.p.CollectionLoader [main] Static select for collection com.revature.model.User.enrolled_courses: select enrolled_c0_.userId as userid1_4_0_, enrolled_c0_.courseId as courseid2_4_0_, course1_.courseId as courseid1_0_1_, course1_.access_code as access_c2_0_1_, course1_.creator as creator8_0_1_, course1_.date_created as date_cre3_0_1_, course1_.description as descript4_0_1_, course1_.number_enrolled as number_e5_0_1_, course1_.public_access as public_a6_0_1_, course1_.title as title7_0_1_, user2_.userId as userid1_3_2_, user2_.email as email2_3_2_, user2_.first_name as first_na3_3_2_, user2_.last_name as last_nam4_3_2_, user2_.user_password as user_pas5_3_2_ from users_course enrolled_c0_ inner join course course1_ on enrolled_c0_.courseId=course1_.courseId left outer join users user2_ on course1_.creator=user2_.userId where enrolled_c0_.userId=?
+2021-03-11 18:37:31,541 INFO o.h.r.t.b.j.i.DdlTransactionIsolatorNonJtaImpl [main] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@11c88cca] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-03-11 18:37:31,630 DEBUG o.h.q.s.NamedQueryRepository [main] Checking 0 named HQL queries
+2021-03-11 18:37:31,631 DEBUG o.h.q.s.NamedQueryRepository [main] Checking 0 named SQL queries
+2021-03-11 18:37:31,637 DEBUG o.h.i.SessionFactoryRegistry [main] Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@24a0c58b
+2021-03-11 18:37:31,642 DEBUG o.h.i.SessionFactoryRegistry [main] Registering SessionFactory: 6138965f-9575-400e-99b8-ce862ad82efe (<unnamed>)
+2021-03-11 18:37:31,642 DEBUG o.h.i.SessionFactoryRegistry [main] Not binding SessionFactory to JNDI, no JNDI name configured
+2021-03-11 18:37:31,681 DEBUG o.h.s.i.StatisticsInitiator [main] Statistics initialized [enabled=false]
+2021-03-11 18:37:31,685 DEBUG o.h.e.t.i.TransactionImpl [main] On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2021-03-11 18:37:31,726 DEBUG o.h.e.t.i.TransactionImpl [main] begin
+2021-03-11 18:37:31,736 DEBUG o.h.h.i.QueryTranslatorFactoryInitiator [main] QueryTranslatorFactory: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@447521e
+2021-03-11 18:37:31,757 DEBUG o.h.h.i.a.QueryTranslatorImpl [main] parse() - HQL: FROM com.revature.model.Lesson l WHERE l.course.courseId = :courseid
+2021-03-11 18:37:31,760 DEBUG o.h.h.i.a.ErrorTracker [main] throwQueryException() : no errors
+2021-03-11 18:37:31,766 DEBUG o.h.h.i.a.QueryTranslatorImpl [main] --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  \-[FROM] Node: 'FROM'
+    |     \-[RANGE] Node: 'RANGE'
+    |        +-[DOT] Node: '.'
+    |        |  +-[DOT] Node: '.'
+    |        |  |  +-[DOT] Node: '.'
+    |        |  |  |  +-[IDENT] Node: 'com'
+    |        |  |  |  \-[IDENT] Node: 'revature'
+    |        |  |  \-[IDENT] Node: 'model'
+    |        |  \-[IDENT] Node: 'Lesson'
+    |        \-[ALIAS] Node: 'l'
+    \-[WHERE] Node: 'WHERE'
+       \-[EQ] Node: '='
+          +-[DOT] Node: '.'
+          |  +-[DOT] Node: '.'
+          |  |  +-[IDENT] Node: 'l'
+          |  |  \-[IDENT] Node: 'course'
+          |  \-[IDENT] Node: 'courseId'
+          \-[COLON] Node: ':'
+             \-[IDENT] Node: 'courseid'
+
+2021-03-11 18:37:31,783 DEBUG o.h.h.i.a.HqlSqlBaseWalker [main] select << begin [level=1, statement=select]
+2021-03-11 18:37:31,846 DEBUG o.h.h.i.a.t.FromElement [main] FromClause{level=1} : com.revature.model.Lesson (l) -> lesson0_
+2021-03-11 18:37:31,860 DEBUG o.h.h.i.a.t.FromReferenceNode [main] Resolved : l -> lesson0_.lessonId
+2021-03-11 18:37:31,861 DEBUG o.h.h.i.a.t.DotNode [main] getDataType() : course -> org.hibernate.type.ManyToOneType(com.revature.model.Course)
+2021-03-11 18:37:31,861 DEBUG o.h.h.i.a.t.DotNode [main] dereferenceShortcut() : property courseId in com.revature.model.Lesson does not require a join.
+2021-03-11 18:37:31,862 DEBUG o.h.h.i.a.t.DotNode [main] Unresolved property path is now 'course.courseId'
+2021-03-11 18:37:31,862 DEBUG o.h.h.i.a.t.FromReferenceNode [main] Resolved : l.course -> lesson0_.courseId
+2021-03-11 18:37:31,862 DEBUG o.h.h.i.a.t.DotNode [main] getDataType() : course.courseId -> org.hibernate.type.IntegerType@28952dea
+2021-03-11 18:37:31,866 DEBUG o.h.h.i.a.t.FromReferenceNode [main] Resolved : l.course.courseId -> lesson0_.courseId
+2021-03-11 18:37:31,873 DEBUG o.h.h.i.a.HqlSqlBaseWalker [main] select : finishing up [level=1, statement=select]
+2021-03-11 18:37:31,873 DEBUG o.h.h.i.a.HqlSqlWalker [main] processQuery() :  ( SELECT ( FromClause{level=1} lesson lesson0_ ) ( WHERE ( = ( lesson0_.courseId ( lesson0_.courseId lesson0_.lessonId course ) courseId ) ? ) ) )
+2021-03-11 18:37:31,895 DEBUG o.h.h.i.a.HqlSqlWalker [main] Derived SELECT clause created.
+2021-03-11 18:37:31,901 DEBUG o.h.h.i.a.u.JoinProcessor [main] Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity Lesson): [lesson]
+    |  +-SelectExpressionImpl
+    |  | persister: SingleTableEntityPersister(com.revature.model.Lesson)
+    |  \-SqlFragment
+    +-FromClause
+    |  \-FromElement
+    \-SqlNode
+       \-BinaryLogicOperatorNode
+          +-DotNode
+          | persister: SingleTableEntityPersister(com.revature.model.Lesson)
+          | path: l.course.courseId
+          |  +-DotNode
+          |  | persister: SingleTableEntityPersister(com.revature.model.Lesson)
+          |  | path: l.course
+          |  |  +-IdentNode
+          |  |  | persister: SingleTableEntityPersister(com.revature.model.Lesson)
+          |  |  | originalText: l
+          |  |  \-IdentNode
+          |  |    persister: null
+          |  |    originalText: course
+          |  \-IdentNode
+          |    persister: null
+          |    originalText: courseId
+          \-ParameterNode
+
+2021-03-11 18:37:31,908 DEBUG o.h.h.i.a.u.JoinProcessor [main] Using FROM fragment [lesson lesson0_]
+2021-03-11 18:37:31,908 DEBUG o.h.h.i.a.HqlSqlBaseWalker [main] select >> end [level=1, statement=select]
+2021-03-11 18:37:31,909 DEBUG o.h.h.i.a.QueryTranslatorImpl [main] --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (lesson)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'lesson0_.lessonId as lessonid1_1_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=l,role=null,tableName=lesson,tableAlias=lesson0_,origin=null,columns={,className=com.revature.model.Lesson}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'lesson0_.courseId as courseid4_1_, lesson0_.file_location as file_loc2_1_, lesson0_.title as title3_1_'
+    +-[FROM] FromClause: 'FROM' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[l], fromElementByTableAlias=[lesson0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'lesson lesson0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=l,role=null,tableName=lesson,tableAlias=lesson0_,origin=null,columns={,className=com.revature.model.Lesson}}
+    \-[WHERE] SqlNode: 'WHERE'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[DOT] DotNode: 'lesson0_.courseId' {propertyName=courseId,dereferenceType=PRIMITIVE,getPropertyPath=course.courseId,path=l.course.courseId,tableAlias=lesson0_,className=com.revature.model.Lesson,classAlias=l}
+          |  +-[DOT] DotNode: 'lesson0_.courseId' {propertyName=courseId,dereferenceType=UNKNOWN,getPropertyPath=course.courseId,path=l.course,tableAlias=lesson0_,className=com.revature.model.Lesson,classAlias=l}
+          |  |  +-[ALIAS_REF] IdentNode: 'lesson0_.lessonId' {alias=l, className=com.revature.model.Lesson, tableAlias=lesson0_}
+          |  |  \-[IDENT] IdentNode: 'course' {originalText=course}
+          |  \-[IDENT] IdentNode: 'courseId' {originalText=courseId}
+          \-[NAMED_PARAM] ParameterNode: '?' {name=courseid, expectedType=org.hibernate.type.IntegerType@28952dea}
+
+2021-03-11 18:37:31,909 DEBUG o.h.h.i.a.ErrorTracker [main] throwQueryException() : no errors
+2021-03-11 18:37:31,915 DEBUG o.h.h.i.a.QueryTranslatorImpl [main] HQL: FROM com.revature.model.Lesson l WHERE l.course.courseId = :courseid
+2021-03-11 18:37:31,915 DEBUG o.h.h.i.a.QueryTranslatorImpl [main] SQL: select lesson0_.lessonId as lessonid1_1_, lesson0_.courseId as courseid4_1_, lesson0_.file_location as file_loc2_1_, lesson0_.title as title3_1_ from lesson lesson0_ where lesson0_.courseId=?
+2021-03-11 18:37:31,915 DEBUG o.h.h.i.a.ErrorTracker [main] throwQueryException() : no errors
+2021-03-11 18:37:31,969 DEBUG o.h.e.j.s.SqlStatementLogger [main] select lesson0_.lessonId as lessonid1_1_, lesson0_.courseId as courseid4_1_, lesson0_.file_location as file_loc2_1_, lesson0_.title as title3_1_ from lesson lesson0_ where lesson0_.courseId=?
+2021-03-11 18:37:31,999 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 0
+2021-03-11 18:37:32,001 DEBUG o.h.l.Loader [main] Result row: EntityKey[com.revature.model.Lesson#4]
+2021-03-11 18:37:32,016 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 1
+2021-03-11 18:37:32,016 DEBUG o.h.l.Loader [main] Result row: EntityKey[com.revature.model.Lesson#5]
+2021-03-11 18:37:32,016 DEBUG o.j.l.DelegatingBasicLogger [main] Result set row: 2
+2021-03-11 18:37:32,017 DEBUG o.h.l.Loader [main] Result row: EntityKey[com.revature.model.Lesson#6]
+2021-03-11 18:37:32,021 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [com.revature.model.Lesson#4]
+2021-03-11 18:37:32,022 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `course` : value = 2
+2021-03-11 18:37:32,022 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`course`)  - enhanced for lazy-loading? - false
+2021-03-11 18:37:32,026 DEBUG o.h.e.j.s.SqlStatementLogger [main] select course0_.courseId as courseid1_0_0_, course0_.access_code as access_c2_0_0_, course0_.creator as creator8_0_0_, course0_.date_created as date_cre3_0_0_, course0_.description as descript4_0_0_, course0_.number_enrolled as number_e5_0_0_, course0_.public_access as public_a6_0_0_, course0_.title as title7_0_0_, user1_.userId as userid1_3_1_, user1_.email as email2_3_1_, user1_.first_name as first_na3_3_1_, user1_.last_name as last_nam4_3_1_, user1_.user_password as user_pas5_3_1_ from course course0_ left outer join users user1_ on course0_.creator=user1_.userId where course0_.courseId=?
+2021-03-11 18:37:32,066 DEBUG o.h.l.p.e.p.i.EntityReferenceInitializerImpl [main] On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+2021-03-11 18:37:32,068 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [com.revature.model.Course#2]
+2021-03-11 18:37:32,068 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `access_code` : value = 
+2021-03-11 18:37:32,068 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`access_code`)  - enhanced for lazy-loading? - false
+2021-03-11 18:37:32,068 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `creator` : value = 2
+2021-03-11 18:37:32,068 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`creator`)  - enhanced for lazy-loading? - false
+2021-03-11 18:37:32,069 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `date_created` : value = 2000-01-01
+2021-03-11 18:37:32,069 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`date_created`)  - enhanced for lazy-loading? - false
+2021-03-11 18:37:32,069 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `description` : value = Learning how to boil, scramble, and poach an egg
+2021-03-11 18:37:32,069 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`description`)  - enhanced for lazy-loading? - false
+2021-03-11 18:37:32,069 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `number_enrolled` : value = 6
+2021-03-11 18:37:32,069 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`number_enrolled`)  - enhanced for lazy-loading? - false
+2021-03-11 18:37:32,069 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `public_access` : value = true
+2021-03-11 18:37:32,069 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`public_access`)  - enhanced for lazy-loading? - false
+2021-03-11 18:37:32,069 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `title` : value = Cooking Basics
+2021-03-11 18:37:32,069 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`title`)  - enhanced for lazy-loading? - false
+2021-03-11 18:37:32,070 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [com.revature.model.Course#2]
+2021-03-11 18:37:32,070 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [com.revature.model.User#2]
+2021-03-11 18:37:32,070 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `email` : value = b@email.com
+2021-03-11 18:37:32,071 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`email`)  - enhanced for lazy-loading? - false
+2021-03-11 18:37:32,071 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `enrolled_courses` : value = NOT NULL COLLECTION
+2021-03-11 18:37:32,071 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`enrolled_courses`)  - enhanced for lazy-loading? - false
+2021-03-11 18:37:32,076 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `first_name` : value = Maggie
+2021-03-11 18:37:32,076 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`first_name`)  - enhanced for lazy-loading? - false
+2021-03-11 18:37:32,076 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `last_name` : value = Rose
+2021-03-11 18:37:32,076 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`last_name`)  - enhanced for lazy-loading? - false
+2021-03-11 18:37:32,076 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `user_password` : value = userpass
+2021-03-11 18:37:32,076 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`user_password`)  - enhanced for lazy-loading? - false
+2021-03-11 18:37:32,077 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [com.revature.model.User#2]
+2021-03-11 18:37:32,079 DEBUG o.h.l.e.p.AbstractLoadPlanBasedEntityLoader [main] Done entity load : com.revature.model.Course#2
+2021-03-11 18:37:32,079 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `file_location` : value = location 1
+2021-03-11 18:37:32,079 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`file_location`)  - enhanced for lazy-loading? - false
+2021-03-11 18:37:32,079 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `title` : value = How to boil an egg
+2021-03-11 18:37:32,079 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`title`)  - enhanced for lazy-loading? - false
+2021-03-11 18:37:32,080 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [com.revature.model.Lesson#4]
+2021-03-11 18:37:32,080 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [com.revature.model.Lesson#5]
+2021-03-11 18:37:32,080 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `course` : value = 2
+2021-03-11 18:37:32,080 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`course`)  - enhanced for lazy-loading? - false
+2021-03-11 18:37:32,080 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `file_location` : value = location 2
+2021-03-11 18:37:32,080 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`file_location`)  - enhanced for lazy-loading? - false
+2021-03-11 18:37:32,081 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `title` : value = How to scramble an egg
+2021-03-11 18:37:32,081 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`title`)  - enhanced for lazy-loading? - false
+2021-03-11 18:37:32,081 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [com.revature.model.Lesson#5]
+2021-03-11 18:37:32,081 DEBUG o.h.e.i.TwoPhaseLoad [main] Resolving attributes for [com.revature.model.Lesson#6]
+2021-03-11 18:37:32,081 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `course` : value = 2
+2021-03-11 18:37:32,081 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`course`)  - enhanced for lazy-loading? - false
+2021-03-11 18:37:32,081 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `file_location` : value = location 3
+2021-03-11 18:37:32,082 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`file_location`)  - enhanced for lazy-loading? - false
+2021-03-11 18:37:32,082 DEBUG o.h.e.i.TwoPhaseLoad [main] Processing attribute `title` : value = How to poache an egg
+2021-03-11 18:37:32,082 DEBUG o.h.e.i.TwoPhaseLoad [main] Attribute (`title`)  - enhanced for lazy-loading? - false
+2021-03-11 18:37:32,082 DEBUG o.h.e.i.TwoPhaseLoad [main] Done materializing entity [com.revature.model.Lesson#6]
+2021-03-11 18:37:32,084 DEBUG o.h.e.t.i.TransactionImpl [main] committing
+2021-03-11 18:37:32,085 DEBUG o.h.e.i.AbstractFlushingEventListener [main] Processing flush-time cascades
+2021-03-11 18:37:32,089 DEBUG o.h.e.i.AbstractFlushingEventListener [main] Dirty checking collections
+2021-03-11 18:37:32,092 DEBUG o.h.e.i.Collections [main] Collection found: [com.revature.model.User.enrolled_courses#2], was: [com.revature.model.User.enrolled_courses#2] (uninitialized)
+2021-03-11 18:37:32,094 DEBUG o.h.e.i.AbstractFlushingEventListener [main] Flushed: 0 insertions, 0 updates, 0 deletions to 5 objects
+2021-03-11 18:37:32,094 DEBUG o.h.e.i.AbstractFlushingEventListener [main] Flushed: 0 (re)creations, 0 updates, 0 removals to 1 collections
+2021-03-11 18:37:32,095 DEBUG o.h.i.u.EntityPrinter [main] Listing entities:
+2021-03-11 18:37:32,095 DEBUG o.h.i.u.EntityPrinter [main] com.revature.model.Lesson{file_location=location 1, lessonId=4, course=com.revature.model.Course#2, title=How to boil an egg}
+2021-03-11 18:37:32,095 DEBUG o.h.i.u.EntityPrinter [main] com.revature.model.User{user_password=userpass, last_name=Rose, enrolled_courses=<uninitialized>, userId=2, first_name=Maggie, email=b@email.com}
+2021-03-11 18:37:32,095 DEBUG o.h.i.u.EntityPrinter [main] com.revature.model.Lesson{file_location=location 2, lessonId=5, course=com.revature.model.Course#2, title=How to scramble an egg}
+2021-03-11 18:37:32,095 DEBUG o.h.i.u.EntityPrinter [main] com.revature.model.Lesson{file_location=location 3, lessonId=6, course=com.revature.model.Course#2, title=How to poache an egg}
+2021-03-11 18:37:32,095 DEBUG o.h.i.u.EntityPrinter [main] com.revature.model.Course{creator=com.revature.model.User#2, public_access=true, number_enrolled=6, date_created=2000-01-01, access_code=, description=Learning how to boil, scramble, and poach an egg, title=Cooking Basics, courseId=2}
+2021-03-11 18:37:32,121 DEBUG o.h.r.j.i.LogicalConnectionManagedImpl [main] Initiating JDBC connection release from afterTransaction
+2021-03-11 18:37:32,122 DEBUG o.h.r.t.i.SynchronizationRegistryStandardImpl [main] Clearing local Synchronizations
+2021-03-11 18:37:32,122 DEBUG o.h.r.j.i.LogicalConnectionManagedImpl [main] Initiating JDBC connection release from afterTransaction

@@ -19,7 +19,7 @@ public class Driver {
 		LessonRepository lessonRepo = new LessonRepositoryImpl();
 		List<Lesson> lessons = new ArrayList<>();
 		
-		lessons = lessonRepo.getLessonByTitle("Create a new folder");
+		lessons = lessonRepo.getLessonByCourseId(2);
 		System.out.println(lessons);
 	}
 

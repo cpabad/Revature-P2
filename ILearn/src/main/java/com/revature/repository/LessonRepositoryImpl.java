@@ -62,7 +62,7 @@ public class LessonRepositoryImpl implements LessonRepository {
 		try {
 			s = HibernateSessionFactory.getSession();
 			tx = s.beginTransaction();
-			lessons = s.createQuery("FROM Lesson WHERE courseid = :courseid",Lesson.class)
+			lessons = s.createQuery("FROM Lesson l WHERE l.course.courseId = :courseid",Lesson.class)
 					.setParameter("courseid", courseid)
 					.getResultList();
 			tx.commit();
