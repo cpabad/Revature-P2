@@ -5,6 +5,8 @@ import java.util.Set;
 import javax.persistence.*;
 
 
+
+
 /**
  * 
  * @author kenny Huang
@@ -17,7 +19,7 @@ public class User{
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column
-	private int userId;
+	private int userid;
 	@Column
 	private String email;
 	@Column
@@ -44,7 +46,7 @@ public class User{
 	public User(int userId, String email, String user_password, String first_name, String last_name,
 			Set<Course> enrolled_courses) {
 		super();
-		this.userId = userId;
+		this.userid = userId;
 		this.email = email;
 		this.user_password = user_password;
 		this.first_name = first_name;
@@ -63,12 +65,12 @@ public class User{
 		this.enrolled_courses = enrolled_courses;
 	}
 
-	public int getUserId() {
-		return userId;
+	public int getUserid() {
+		return userid;
 	}
 
-	public void setUserId(int userId) {
-		this.userId = userId;
+	public void setUserid(int userid) {
+		this.userid = userid;
 	}
 
 	public String getEmail() {
@@ -102,7 +104,7 @@ public class User{
 	public void setLast_name(String last_name) {
 		this.last_name = last_name;
 	}
-	
+
 	public Set<Course> getEnrolled_courses() {
 		return enrolled_courses;
 	}
@@ -119,8 +121,8 @@ public class User{
 		result = prime * result + ((enrolled_courses == null) ? 0 : enrolled_courses.hashCode());
 		result = prime * result + ((first_name == null) ? 0 : first_name.hashCode());
 		result = prime * result + ((last_name == null) ? 0 : last_name.hashCode());
-		result = prime * result + userId;
 		result = prime * result + ((user_password == null) ? 0 : user_password.hashCode());
+		result = prime * result + userid;
 		return result;
 	}
 
@@ -153,24 +155,24 @@ public class User{
 				return false;
 		} else if (!last_name.equals(other.last_name))
 			return false;
-		if (userId != other.userId)
-			return false;
 		if (user_password == null) {
 			if (other.user_password != null)
 				return false;
 		} else if (!user_password.equals(other.user_password))
+			return false;
+		if (userid != other.userid)
 			return false;
 		return true;
 	}
 
 	@Override
 	public String toString() {
-		return "Users [userId=" + userId + ", email=" + email + ", user_password=" + user_password + ", first_name="
+		return "User [userid=" + userid + ", email=" + email + ", user_password=" + user_password + ", first_name="
 				+ first_name + ", last_name=" + last_name + ", enrolled_courses=" + enrolled_courses + "]";
 	}
+
 	
-	
-	
+
 	
 	
 	
