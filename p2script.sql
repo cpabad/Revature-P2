@@ -74,9 +74,9 @@ CREATE TABLE user_comment(
 	like_counter integer,
 	dislike_counter integer
 );
-INSERT INTO user_comment values(DEFAULT, 1,1,'If I could I would. Wether or not I should, I still would.',current_timestamp,0,0);
-INSERT INTO user_comment values(DEFAULT, 1,2,'If I roll once and you roll twice. What does that mean?',current_timestamp,0,0);
-INSERT INTO user_comment values(DEFAULT, 1,3,'Microsoft bought Skype for 8,5 billion!.. what a bunch of idiots! I downloaded it for free!',current_timestamp,0,0);
+INSERT INTO user_comment values(DEFAULT, 1,1,'If I could I would. Wether or not I should, I still would.','2021-03-11 18:00:00',0,0);
+INSERT INTO user_comment values(DEFAULT, 1,2,'If I roll once and you roll twice. What does that mean?','2021-03-11 18:00:00',0,0);
+INSERT INTO user_comment values(DEFAULT, 1,3,'Microsoft bought Skype for 8,5 billion!.. what a bunch of idiots! I downloaded it for free!','2021-03-11 18:00:00',0,0);
 INSERT INTO user_comment values(DEFAULT, 2,4,'Life is full of temporary situations, ultimately ending in a permanent solution.',current_timestamp,0,0);
 INSERT INTO user_comment values(DEFAULT, 2,5,'A good lawyer knows the law; a clever one takes the judge to lunch.',current_timestamp,0,0);
 INSERT INTO user_comment values(DEFAULT, 2,6,'lol',current_timestamp,0,0);

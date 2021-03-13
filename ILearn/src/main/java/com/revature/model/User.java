@@ -32,7 +32,7 @@ public class User{
 	 * as a user can enroll many courses and a course can be enrolled by many users
 	 * This annotation specifies that we want Hibernate to create a join table between these entities when we run the "update" mode on Hibernate the first time.
 	 */
-	@ManyToMany
+	@ManyToMany(fetch = FetchType.EAGER)
 	@JoinTable(joinColumns = {@JoinColumn(name = "userId")},
 	inverseJoinColumns = {@JoinColumn(name = "courseId")})
 	private Set<Course> enrolled_courses;
